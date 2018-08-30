@@ -13,7 +13,8 @@ bool FindGreatestSumOfSubArray
         ) {
     // if the input is invalid, return false
     if((pData == NULL) || (nLength == 0)) return false;
-    int nCurSum = nGreatestSum = 0; for(unsigned int i = 0; i < nLength; ++i) {
+    int nCurSum = nGreatestSum = 0;
+    for(unsigned int i = 0; i < nLength; ++i) {
         nCurSum += pData[i];
 // if the current sum is negative, discard it
         if(nCurSum < 0) nCurSum = 0;
