@@ -3,4 +3,4 @@ project(small_algorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(small_algorithms FindGreatestSumOfSubArray.cpp)
+add_executable(small_algorithms FindGreatestSumOfSubArray.cpp FindKLeastNumbers.cpp)
